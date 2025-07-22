@@ -8,3 +8,18 @@ body{
 main{
     flex-grow: 1;
 }
+
+/* transición de color */
+.item{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    transition: 300ms;
+    transition-timing-function: cubic-bezier(0.97, -0.18, 0.28, 1.13);
+    /* transition-delay: 300ms; */
+}
+
+.item:hover{
+    background-color: lightskyblue;
+    transition: 300ms;
+}
