@@ -32,3 +32,15 @@ main{
     font-size: larger;
     cursor: pointer;
 }
+
+.itemOpacidad{
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    opacity: 0.5;
+    transition: opacity 200ms ease-in-out;
+}
+
+.itemOpacidad:hover{
+    opacity: 1;
+}
