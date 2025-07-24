@@ -46,10 +46,45 @@
       </form>
     </div>
   </div>
-</nav>
+        </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="container">
+      <section class="my-3">
+        <h1 class="text-center">Practica de transiciones y animaciones</h1>
+        <article class="mt-4">
+          <h2>Transiciones con CSS</h2>
+          <p class="lead">Permiten cambiar suavemente una propiedad CSS de un estado a otro durante un período de tiempo.</p>
+          <ul>
+            <li>transition-property: Define qué propiedad cambiar</li>
+            <li>transition-duration: Define la duración del cambio. (s o ms)</li>
+            <li>transition-timing-function: Controla la aceleración o desaceleración.
+              <ul>
+                <li>linear → Velocidad constante.</li>
+                <li>ease (por defecto) → Comienza lenta, acelera y luego desacelera.</li>
+                <li>ease-in → Comienza lenta y acelera.</li>
+                <li>ease-out → Comienza rápida y desacelera.</li>
+                <li>ease-in-out → Comienza y termina lenta</li>
+              </ul>
+            </li>
+            <li>transition-delay: Retrasa el inicio de la transición.</li>
+          </ul>
+        </article>
+        <article class="mt-4">
+          <h3>Transición de color de fondo</h3>
+          <p>La transición de color de fondo en CSS permite cambiar suavemente el color de fondo de un elemento cuando se activa un cambio de estado, como un :hover. Esto crea un efecto visual agradable y fluido que mejora la experiencia del usuario al interactuar con la página. Por ejemplo, al pasar el cursor sobre un botón, su color de fondo puede cambiar de azul a rojo, atrayendo la atención del usuario sin ser abrupto.</p>
+          <div class="item d-flex justify-content-center align-items-center">
+            <p class="fw-bolder">Cambio de color</p>
+          </div>
+
+        </article>
+      </section>
+
+
+    </main>
+   
+    <footer class="bg-dark-subtle text-center p-">
+      <p>&copy; Todos los derechos reservados</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
