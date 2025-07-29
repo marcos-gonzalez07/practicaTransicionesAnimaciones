@@ -68,3 +68,12 @@ main{
 .subrayado:hover::after{
     width: 100%;
 }
+
+/*  ANIMACION DE MOVIMIENTOS*/
+.contenedorAnimado{
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    color: black;
+    
+}
